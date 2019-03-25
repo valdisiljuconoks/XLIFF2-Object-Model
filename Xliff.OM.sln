@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xliff.OM", "Xliff.OM\Xliff.OM.csproj", "{F72462DB-976C-4E91-A82F-960B5D89AE1C}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xliff.OM.Tests", "Xliff.OM.Tests\Xliff.OM.Tests.csproj", "{381519C4-F501-4A4A-8A47-6AB3420F773D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xliff.Samples", "Xliff.Samples\Xliff.Samples.csproj", "{4B16D84A-5A6A-4EDF-8EB7-5DAB318879FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xliff.UnitTests", "Xliff.UnitTests\Xliff.UnitTests.csproj", "{A95568E3-074B-4CC2-89C8-9607EA80F0DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,8 +39,15 @@ Global
 		{4B16D84A-5A6A-4EDF-8EB7-5DAB318879FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B16D84A-5A6A-4EDF-8EB7-5DAB318879FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B16D84A-5A6A-4EDF-8EB7-5DAB318879FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95568E3-074B-4CC2-89C8-9607EA80F0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95568E3-074B-4CC2-89C8-9607EA80F0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95568E3-074B-4CC2-89C8-9607EA80F0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95568E3-074B-4CC2-89C8-9607EA80F0DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE474087-3EEA-477E-9234-B9C1CFEE70E5}
 	EndGlobalSection
 EndGlobal
